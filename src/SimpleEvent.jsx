@@ -26,9 +26,9 @@ export class SimpleEvent extends Component {
         e.preventDefault()
         console.log('Form submitted: ', this.state.inputText)
     }
-    
+
     render() {
-    
+
         return (
             <div>
                 <form onSubmit={this.handleSubmit}>
